@@ -14,8 +14,10 @@ class Calculator:
     return a - b
 
   def divide(self, a, b):
-    if b != 0:
-      return a/b
+    if b==0: 
+        return "You can t divide by zero!" 
+    else: 
+        return a/b
 
 def add_all(int_list):
     sum = 0

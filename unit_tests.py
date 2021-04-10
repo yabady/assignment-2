@@ -22,7 +22,7 @@ class TestCalculator(unittest.TestCase):
 
     # Test divide when denominator is 0
     def test_divide_with_zero(self):
-        self.assertEqual(self.calculator.divide(6,0), None)
+        self.assertEqual(self.calculator.divide(6,0), 'You can t divide by zero!')
 
 
 class TestAddAll(unittest.TestCase):
