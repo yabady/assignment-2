@@ -24,9 +24,9 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "assignment-2"
-  env: "Assignment2-env"
-  bucket_name: "elasticbeanstalk:us-east-2:331194181497"
+  app: "docker"
+  env: "Docker-env"
+  bucket_name: "elasticbeanstalk-us-east-2-331194181497"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
